@@ -1,16 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2015
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{44621553-AA7D-4893-8834-79582A7D8348}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7D749BDA-4638-4517-B66A-D40DEDEEB141}"
 	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
 		NuGet.config = NuGet.config
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B7B176B6-8D4D-4EF1-BBD2-DDA650C78FFF}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MusicStore", "src\MusicStore\MusicStore.xproj", "{3CFBED5D-2ED8-49DB-96FB-BDAA748DC5A0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mocks", "Mocks", "{D7CB3341-F932-4AC6-8F4E-EDC62F03C064}"
 	ProjectSection(SolutionItems) = preProject
@@ -64,8 +67,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Twitter", "Twitter", "{6CA9
 		shared\Mocks\Twitter\TwitterMockBackChannelHttpHandler.cs = shared\Mocks\Twitter\TwitterMockBackChannelHttpHandler.cs
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicStore", "src\MusicStore\MusicStore.csproj", "{3CFBED5D-2ED8-49DB-96FB-BDAA748DC5A0}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +92,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{3CFBED5D-2ED8-49DB-96FB-BDAA748DC5A0} = {B7B176B6-8D4D-4EF1-BBD2-DDA650C78FFF}
 		{D7CB3341-F932-4AC6-8F4E-EDC62F03C064} = {E839AEB0-7926-4FEE-B22C-11AF7EF5D4BF}
 		{B53E1D6D-4A18-4AA2-BE59-146D6B7F310D} = {D7CB3341-F932-4AC6-8F4E-EDC62F03C064}
 		{78715843-B625-414E-9074-56908C48EF28} = {D7CB3341-F932-4AC6-8F4E-EDC62F03C064}
@@ -98,9 +100,5 @@ Global
 		{86DDEB7E-F29D-41BD-9866-65EB01A8CFED} = {D7CB3341-F932-4AC6-8F4E-EDC62F03C064}
 		{B76F2C95-C066-4CAB-AA2B-287FA039C786} = {D7CB3341-F932-4AC6-8F4E-EDC62F03C064}
 		{6CA9AC03-039E-4993-8164-C27E418683C5} = {D7CB3341-F932-4AC6-8F4E-EDC62F03C064}
-		{3CFBED5D-2ED8-49DB-96FB-BDAA748DC5A0} = {B7B176B6-8D4D-4EF1-BBD2-DDA650C78FFF}
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C4BF79DD-92F5-4A5C-A0DA-6CBAF228985A}
 	EndGlobalSection
 EndGlobal

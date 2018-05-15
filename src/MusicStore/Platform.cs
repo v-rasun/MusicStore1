@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
+
 namespace MusicStore
 {
     internal class Platform
